@@ -1,5 +1,5 @@
 module.exports = {
-    url: "https://www.google.com.br/",
+    url: "http://localhost/Lib/curriculo.php",
     Arch: "index.html"
   // url: "https://open.spotify.com/"
 }

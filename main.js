@@ -30,7 +30,10 @@ function CreateShortcut () {
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Algumas APIs podem ser usadas somente depois que este evento ocorre.
-app.whenReady().then(createWindow).then(CreateShortcut)
+for(let index = 0; index < 2; index ++){
+   app.whenReady().then(createWindow).then(CreateShortcut)
+}
+
 
 // Quit when all windows are closed.
 app.on('window-all-closed', () => {
